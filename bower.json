@@ -1,0 +1,18 @@
+{
+  "name": "code-mirror-bluemix",
+  "description": "Demo for CodeMirror CE Mode",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "https://github.com/annaet/code-mirror-bluemix",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror-ce": "^1.0.1"
+  }
+}
