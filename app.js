@@ -4,10 +4,7 @@ var path = require('path');
 var app = express();
 var server = require('http').Server(app);
 
-app.use('/addon', express.static(__dirname + '/addon'));
-app.use('/lib', express.static(__dirname + '/lib'));
-app.use('/mode', express.static(__dirname + '/mode'));
-app.use('/theme', express.static(__dirname + '/theme'));
+app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
 app.all('/*', function (req, res) {
   'use strict';
